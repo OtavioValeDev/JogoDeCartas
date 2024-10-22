@@ -1,0 +1,17 @@
+p {
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do parágrafo */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,th,td {
+    border: 1px solid black;
+}
+
+th,td {
+    padding: 8px;
+}

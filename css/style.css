@@ -1,17 +1,53 @@
-p {
-    font-size: 20px; /* Aumenta o tamanho da fonte */
-    font-weight: bold; /* Deixa o texto em negrito */
-    margin-bottom: 20px; /* Adiciona espaço abaixo do parágrafo */
+/* Estilos geral do corpo do HTML */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-table {
-    border-collapse: collapse;
+/* Container para alinhar regras e placar */
+.regras-placar {
+    display: flex; /* Flexbox para alinhar elementos lado a lado */
+    justify-content: space-between; /* Espalha as colunas igualmente */
+    margin: 20px;
 }
 
-table,th,td {
-    border: 1px solid black;
+/* Regras do jogo */
+.regras {
+    width: 60%; /* Tamanho das regras*/
+    padding: 10px;
 }
 
-th,td {
-    padding: 8px;
+/* Placar */
+.placar {
+    width: 10%; /* Tamanho do placar*/
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda para destacar o placar */
+    background-color: #f9f9f9; /* Fundo para destacar o placar */
+}
+
+/* Alinhamento do título */
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos adicionais para manter a consistência */
+#principal {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#btn-json,#btn-reset {
+    margin: 10px;
+}
+
+.resultados{
+    width: 80%; /* Tamanho do placar*/
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda para destacar o placar */
+    background-color: #f9f9f9; /* Fundo para destacar o placar */
 }
